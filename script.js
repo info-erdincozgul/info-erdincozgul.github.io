@@ -226,15 +226,6 @@ const projects = {
     },
   ],
   backend: [
-    {
-      name: "Placeholder",
-      description:
-        "Placeholder",
-      media: "Placeholder",
-      tags: ["Placeholder"],
-      github: "Placeholder",
-      vercel: null,
-    },
   ],
 };
 
