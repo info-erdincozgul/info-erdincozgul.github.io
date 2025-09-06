@@ -225,18 +225,17 @@ const projects = {
       vercel: null,
     },
   ],
-  // backend: [
-  //   {
-  //     name: "Blog API",
-  //     description:
-  //       "Gönderi ve yorum işlemleri için Node.js ve Express.js ile geliştirilmiş RESTful API.",
-  //     media: "https://via.placeholder.com/400x250.png?text=Blog+API",
-  //     tags: ["Node.js", "Express.js", "MongoDB", "REST API"],
-  //     github: "https://github.com/ornek/blog-api",
-  //     vercel: null,
-  //   },
-  //   // Diğer backend projelerinizi buraya ekleyin
-  // ],
+  backend: [
+    {
+      name: "Placeholder",
+      description:
+        "Placeholder",
+      media: "Placeholder",
+      tags: ["Placeholder"],
+      github: "Placeholder",
+      vercel: null,
+    },
+  ],
 };
 
 function renderProjects(category, containerId, searchTerm = "") {
