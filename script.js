@@ -1,6 +1,25 @@
 const projects = {
   frontend: [
     {
+      name: "React Portfolio Project",
+      description:
+        "his project is a personal portfolio website built with React. The application is designed to be fully responsive and includes a dark mode feature for a better user experience. A key aspect of the project is its state management, which utilizes Redux Toolkit to handle the application's global state, including language preference and dark mode status. The project fetches all content dynamically from a local data file (data.js) and stores it in the Redux store, allowing for easy updates and localization.",
+      vimeoId: "1121893107",
+      tags: [
+        "Axios",
+        "Custom Hooks",
+        "Local Storage",
+        "React",
+        "Redux",
+        "Redux Thunk",
+        "REST API",
+        "Tailwind CSS",
+        "Vite",
+      ],
+      github: "https://github.com/info-erdincozgul/cvProject",
+      vercel: "https://vimeo.com/manage/videos/1121893107",
+    },
+    {
       name: "Movie Database Axios Hook",
       description:
         "This project is a movie database application built using React. It allows users to view a list of movies, see movie details, add new movies, and edit or delete existing ones. The application manages movies through an API and offers additional features like a favorite movie list.",
@@ -225,8 +244,18 @@ const projects = {
       vercel: null,
     },
   ],
-  backend: [
-  ],
+  // backend: [
+  //   {
+  //     name: "Blog API",
+  //     description:
+  //       "Gönderi ve yorum işlemleri için Node.js ve Express.js ile geliştirilmiş RESTful API.",
+  //     media: "https://via.placeholder.com/400x250.png?text=Blog+API",
+  //     tags: ["Node.js", "Express.js", "MongoDB", "REST API"],
+  //     github: "https://github.com/ornek/blog-api",
+  //     vercel: null,
+  //   },
+  //   // Diğer backend projelerinizi buraya ekleyin
+  // ],
 };
 
 function renderProjects(category, containerId, searchTerm = "") {
@@ -311,7 +340,6 @@ function renderProjects(category, containerId, searchTerm = "") {
     container.innerHTML += projectHtml;
   });
 }
-
 
 document.addEventListener("DOMContentLoaded", () => {
   renderProjects("frontend", "frontend-projects");
