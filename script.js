@@ -244,18 +244,50 @@ const projects = {
       vercel: null,
     },
   ],
-  // backend: [
-  //   {
-  //     name: "Blog API",
-  //     description:
-  //       "Gönderi ve yorum işlemleri için Node.js ve Express.js ile geliştirilmiş RESTful API.",
-  //     media: "https://via.placeholder.com/400x250.png?text=Blog+API",
-  //     tags: ["Node.js", "Express.js", "MongoDB", "REST API"],
-  //     github: "https://github.com/ornek/blog-api",
-  //     vercel: null,
-  //   },
-  //   // Diğer backend projelerinizi buraya ekleyin
-  // ],
+   backend: [
+     {
+       name: "Actor API",
+       description:
+        "This project is a RESTful API built using Spring Boot and Spring Data JPA. It is designed to manage two core entities: Actors and Movies, along with their Many-to-Many relationship. The application provides comprehensive CRUD (Create, Read, Update, Delete) operations for both entities through dedicated REST endpoints. It features a layered architecture, custom exception handling, and the use of Data Transfer Objects (DTOs) for clean data exposure.",
+       media: "https://blocks.astratic.com/img/general-img-landscape.png",
+       tags: [
+		"Java",
+		"Spring Boot",
+		"RESTful API",
+		"Spring Data JPA",
+		"PostgreSQL",
+		"Hibernate",
+		"CRUD Operations",
+		"Many-to-Many",
+		"Layered Architecture",
+		"Exception Handling",
+		"DTOs",
+		],
+       github: "https://github.com/info-erdincozgul/java-actorApi",
+       vercel: null,
+     },
+	      {
+       name: "API Security",
+       description:
+        "This project is a simple API example built with Spring Boot focusing on implementing core Security mechanisms. The application uses Spring Security to manage user authentication and role-based authorization. Users (Members) can register with an Email and Password, and they are assigned Roles (ROLE_USER, ROLE_ADMIN) which determine their access rights to various API endpoints.",
+       media: "https://blocks.astratic.com/img/general-img-landscape.png",
+		tags: [
+		  "Java",
+		  "Spring Boot",
+		  "Spring Security",
+		  "Authentication",
+		  "Authorization",
+		  "Role-Based Access Control (RBAC)",
+		  "UserDetails",
+		  "BCrypt",
+		  "JPA",
+		  "PostgreSQL",
+		],
+       github: "https://github.com/info-erdincozgul/java-apiSecurity",
+       vercel: null,
+     },
+   ],
+  
 };
 
 function renderProjects(category, containerId, searchTerm = "") {
