@@ -17,7 +17,7 @@ const projects = {
         "Vite",
       ],
       github: "https://github.com/info-erdincozgul/cvProject",
-      vercel: "https://vimeo.com/manage/videos/1121893107",
+      vercel: "https://erdincozgul-cv.vercel.app/",
     },
     {
       name: "Movie Database Axios Hook",
